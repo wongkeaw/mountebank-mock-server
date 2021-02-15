@@ -1,0 +1,21 @@
+{
+    "port": "9006",
+    "protocol": "http",
+    "name": "d1",
+    "stubs":[{
+            "predicates": [<% include edge_liveness/success/success_edge_liveness_predicates.ejs %>],
+            "responses": [<% include edge_liveness/success/success_edge_liveness_response.ejs %>]
+        },{
+            "predicates": [<% include edge_liveness/fail/fail_edge_liveness_predicates.ejs %>],
+            "responses": [<% include edge_liveness/fail/fail_edge_liveness_response.ejs %>]
+        },{
+            "predicates": [<% include edge_face_reg/success/success_edge_face_reg_predicates.ejs %>],
+            "responses": [<% include edge_face_reg/success/success_edge_face_reg_response.ejs %>]
+        },{
+            "predicates": [<% include edge_face_reg/fail/fail_edge_face_reg_predicates.ejs %>],
+            "responses": [<% include edge_face_reg/fail/fail_edge_face_reg_response.ejs %>]
+        },{
+            "responses": [<% include ../proxy.ejs %>]
+       }]
+       
+}

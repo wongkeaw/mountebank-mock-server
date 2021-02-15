@@ -1,0 +1,14 @@
+{
+     "port": "9009",
+     "protocol": "http",
+     "name": "onetrust",
+     "stubs":[{
+            "predicates": [ <% include cid_profiles/cid_profiles_predicates.ejs %> ],
+            "responses": [ <% include cid_profiles/cid_profiles_response.ejs %> ]
+        },{
+            "predicates": [ <% include add_consent/add_consent_predicates.ejs %> ],
+            "responses": [ <% include add_consent/add_consent_response.ejs %> ]
+        },{
+            "responses": [ <% include ../proxy.ejs %> ]
+        }]
+}

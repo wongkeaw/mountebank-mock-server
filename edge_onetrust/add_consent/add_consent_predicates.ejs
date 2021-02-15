@@ -1,0 +1,17 @@
+{
+   "and":[
+      {
+         "matches":{
+            "path":"/api/v1/consent",
+            "method":"POST"
+         }
+      },{
+         "matches":{
+            "body":{
+               "cid":"0123456789123",
+               "purposeId":"ABCD-1234-EFGH-5678IJK"
+            }
+         }
+      }
+   ]
+}

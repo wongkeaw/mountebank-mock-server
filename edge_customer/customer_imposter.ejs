@@ -1,0 +1,32 @@
+{
+     "port": "9007",
+     "protocol": "http",
+     "name": "customer",
+     "stubs":[{
+        "predicates":[<% include cif/data_not_found/notfound_predicates.ejs %>],
+        "responses": [<% include cif/data_not_found/notfound_response.ejs %>]
+        },{
+            "predicates":[<% include cif/request_timeout/timeout_predicates.ejs %>],
+            "responses": [<% include cif/request_timeout/timeout_response.ejs %>]
+        },{
+            "predicates":[<% include cif/data_not_found_for_mb/notfound_predicates.ejs %>],
+            "responses": [<% include cif/data_not_found_for_mb/notfound_response.ejs %>]
+        },{
+            "predicates":[<% include cif/request_timeout_for_mb/timeout_predicates.ejs %>],
+            "responses": [<% include cif/request_timeout_for_mb/timeout_response.ejs %>]
+        },{
+            "predicates":[<% include cif/success/success_predicates.ejs %>],
+            "responses": [<% include cif/success/success_response.ejs %>]
+        },{
+            "predicates":[<% include mobile/success/success_predicates.ejs %>],
+            "responses": [<% include mobile/success/success_response.ejs %>]
+        },{
+            "predicates":[<% include mobile/data_not_found/notfound_predicates.ejs %>],
+            "responses": [<% include mobile/data_not_found/notfound_response.ejs %>]
+        },{
+            "predicates":[<% include mobile/request_timeout/timeout_predicates.ejs %>],
+            "responses": [<% include mobile/request_timeout/timeout_response.ejs %>]
+        },{
+            "responses": [<% include ../proxy.ejs %>]
+        }]
+}

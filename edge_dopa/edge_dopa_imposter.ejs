@@ -1,0 +1,26 @@
+{
+     "port": "9008",
+     "protocol": "http",
+     "name": "edgeDopa",
+     "stubs":[{
+            "predicates": [<% include timeout/timeout_predicates.ejs %>],
+            "responses": [<% include timeout/timeout_response.ejs %>]
+        },{
+            "predicates": [<% include fail_code_1/fail_predicates.ejs %>],
+            "responses": [<% include fail_code_1/fail_response.ejs %>]
+        },{
+            "predicates": [<% include fail_code_2/fail_predicates.ejs %>],
+            "responses": [<% include fail_code_2/fail_response.ejs %>]
+        },{
+            "predicates": [<% include fail_code_4/fail_predicates.ejs %>],
+            "responses": [<% include fail_code_4/fail_response.ejs %>]
+        },{
+            "predicates": [<% include fail_code_5/fail_predicates.ejs %>],
+            "responses": [<% include fail_code_5/fail_response.ejs %>]
+        },{
+            "predicates": [<% include success/success_edge_dopa_predicates.ejs %>],
+            "responses": [<% include success/success_edge_dopa_response.ejs %>]
+        },{
+            "responses": [<% include ../proxy.ejs %>]
+        }]
+}

@@ -1,0 +1,17 @@
+{
+     "port": "9010",
+     "protocol": "http",
+     "name": "sms",
+     "stubs":[{
+            "predicates": [ <% include send/send_predicates.ejs %> ],
+            "responses": [ <% include send/send_response.ejs %> ]
+        },{
+            "predicates": [ <% include send_not_found/send_predicates.ejs %> ],
+            "responses": [ <% include send_not_found/send_response.ejs %> ]
+        },{
+            "predicates": [ <% include send_timeout/send_predicates.ejs %> ],
+            "responses": [ <% include send_timeout/send_response.ejs %> ]
+        },{
+            "responses": [ <% include ../proxy.ejs %> ]
+        }]
+}

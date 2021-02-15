@@ -1,0 +1,11 @@
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-02-11T08:04:13.914Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-02-11T08:04:13.918Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-02-11T08:04:13.947Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-02-11T08:04:14.010Z"}
+{"message":"[http:9007 customer] Open for business...","level":"info","timestamp":"2021-02-11T08:04:14.011Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-02-11T08:04:14.011Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-02-11T08:04:14.012Z"}
+{"message":"[http:9006 d1] ::1:60500 => POST /api/v1/facematch-service-api/facereg","level":"info","timestamp":"2021-02-11T08:05:58.511Z"}
+{"message":"[http:9006 d1] ::1:60506 => POST /api/v1/facematch-service-api/facereg","level":"info","timestamp":"2021-02-11T08:07:10.456Z"}
+{"message":"[http:9006 d1] ::1:60509 => POST /api/v1/facematch-service-api/facereg","level":"info","timestamp":"2021-02-11T08:07:19.526Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-02-11T08:12:05.146Z"}
