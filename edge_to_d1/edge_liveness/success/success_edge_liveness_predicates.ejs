@@ -1,0 +1,24 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/faceID/v2/liveness",
+                "method": "POST"
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "reqNo": "",
+                    "tenantId": "",
+                    "data": {
+                        "msgTime": "" ,
+                        "tranId": "",
+                        "activityCode": "score",
+                        "imgBase64": "A"
+                    }
+                }
+            }
+        }
+    ]
+}

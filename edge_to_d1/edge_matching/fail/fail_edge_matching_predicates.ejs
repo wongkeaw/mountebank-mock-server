@@ -1,0 +1,25 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/faceID/v2/matching",
+                "method": "POST"
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "reqNo": "",
+                    "tenantId": "",
+                    "data": {
+                        "msgTime": "",
+                        "tranId": "",
+                        "activityCode": "score",
+                        "pairImg": "B",
+                        "sourceImg": "B"
+                    }
+                }
+            }
+        }
+    ]
+}
