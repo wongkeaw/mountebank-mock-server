@@ -1,0 +1,14 @@
+{
+     "port": "9008",
+     "protocol": "http",
+     "name": "edgeDopa",
+     "stubs":[{
+            "predicates": [<% include fail/fail_edge_dopa_predicates.ejs %>],
+            "responses": [<% include fail/fail_edge_dopa_response.ejs %>]
+        },{
+            "predicates": [<% include success/success_edge_dopa_predicates.ejs %>],
+            "responses": [<% include success/success_edge_dopa_response.ejs %>]
+        },{
+            "responses": [<% include ../proxy.ejs %>]
+        }]
+}
