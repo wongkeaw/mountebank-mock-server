@@ -1,7 +1,0 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-02-18T08:05:11.095Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-02-18T08:05:11.100Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-02-18T08:05:11.131Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-02-18T08:05:11.173Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-02-18T08:05:11.174Z"}
-{"message":"[http:9008 edgeDopa] ::1:56754 => POST /DOPA_CheckCardAgent/api/Card/CheckCardByLaser","level":"info","timestamp":"2021-02-18T08:05:15.875Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-02-18T08:10:01.404Z"}
