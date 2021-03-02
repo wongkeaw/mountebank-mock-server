@@ -1,0 +1,79 @@
+{
+    "port": "9006",
+    "protocol": "http",
+    "name": "d1",
+    "stubs": [
+        {
+            "predicates": [<% include edge_liveness/success/success_edge_liveness_predicates.ejs %>
+            ],
+            "responses": [<% include edge_liveness/success/success_edge_liveness_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_liveness/fail/fail_edge_liveness_predicates.ejs %>
+            ],
+            "responses": [<% include edge_liveness/fail/fail_edge_liveness_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_liveness/fail_500/fail_edge_liveness_predicates.ejs %>
+            ],
+            "responses": [<% include edge_liveness/fail_500/fail_edge_liveness_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_liveness/fail_408/fail_edge_liveness_predicates.ejs %>
+            ],
+            "responses": [<% include edge_liveness/fail_408/fail_edge_liveness_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_liveness/fail_400/fail_edge_liveness_predicates.ejs %>
+            ],
+            "responses": [<% include edge_liveness/fail_400/fail_edge_liveness_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_matching/success/success_edge_matching_predicates.ejs %>
+            ],
+            "responses": [<% include edge_matching/success/success_edge_matching_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_matching/fail/fail_edge_matching_predicates.ejs %>
+            ],
+            "responses": [<% include edge_matching/fail/fail_edge_matching_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_matching/fail_400/fail_edge_matching_predicates.ejs %>
+            ],
+            "responses": [<% include edge_matching/fail_400/fail_edge_matching_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_matching/fail_408/fail_edge_matching_predicates.ejs %>
+            ],
+            "responses": [<% include edge_matching/fail_408/fail_edge_matching_response.ejs %>
+            ]
+        },
+        {
+            "predicates": [<% include edge_matching/fail_500/fail_edge_matching_predicates.ejs %>
+            ],
+            "responses": [<% include edge_matching/fail_500/fail_edge_matching_response.ejs %>
+            ]
+        },
+
+
+        {
+            "predicates": [<% include edge_d1_ekyc/success/success_edge_liveness_predicates.ejs %>],
+            "responses": [<% include edge_d1_ekyc/success/success_edge_liveness_response.ejs %> ]
+        },
+
+
+        {
+            "responses": [<% include ../proxy.ejs %>
+            ]
+        }
+    ]
+}
