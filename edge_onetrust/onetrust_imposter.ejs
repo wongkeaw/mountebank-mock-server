@@ -21,6 +21,9 @@
             "predicates": [ <% include withdraw_consent/timeout/withdraw_consent_predicates.ejs %> ],
             "responses": [ <% include withdraw_consent/timeout/withdraw_consent_response.ejs %> ]
         },{
+            "predicates": [ <% include cid_profiles_new/cid_profiles_predicates.ejs %> ],
+            "responses": [ <% include cid_profiles_new/cid_profiles_response.ejs %> ]
+        },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]
 }
