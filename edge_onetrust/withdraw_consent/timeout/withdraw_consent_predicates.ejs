@@ -1,0 +1,25 @@
+{
+   "and":[
+      {
+         "matches":{
+            "path":"/api/v1/transactions/withdraw/fordatasubject",
+            "method":"PUT",
+            "query": {
+               "withdrawnBy":"3333333333333"
+           },
+           "headers": {
+            "apikey": "apikey",
+            "identifier": "3333333333333"
+          }
+         }
+      },{
+         "matches":{
+            "body":{
+               "Notes": "test withdrawn",
+               "Origin": "API",
+               "PurposeId": "timeout"
+            }
+         }
+      }
+   ]
+}

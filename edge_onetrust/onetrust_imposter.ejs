@@ -9,6 +9,18 @@
             "predicates": [ <% include add_consent/add_consent_predicates.ejs %> ],
             "responses": [ <% include add_consent/add_consent_response.ejs %> ]
         },{
+            "predicates": [ <% include withdraw_consent/success/withdraw_consent_predicates.ejs %> ],
+            "responses": [ <% include withdraw_consent/success/withdraw_consent_response.ejs %> ]
+        },{
+            "predicates": [ <% include withdraw_consent/fail/withdraw_consent_predicates.ejs %> ],
+            "responses": [ <% include withdraw_consent/fail/withdraw_consent_response.ejs %> ]
+        },{
+            "predicates": [ <% include withdraw_consent/fail_500/withdraw_consent_predicates.ejs %> ],
+            "responses": [ <% include withdraw_consent/fail_500/withdraw_consent_response.ejs %> ]
+        },{
+            "predicates": [ <% include withdraw_consent/timeout/withdraw_consent_predicates.ejs %> ],
+            "responses": [ <% include withdraw_consent/timeout/withdraw_consent_response.ejs %> ]
+        },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]
 }
