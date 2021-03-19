@@ -1,8 +1,9 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-04T04:30:56.174Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-04T04:30:56.186Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-04T04:30:56.256Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-04T04:30:56.340Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-04T04:30:56.344Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-04T04:30:56.345Z"}
-{"message":"[http:9009 onetrust] ::1:55542 => PUT /api/v1/transactions/withdraw/fordatasubject?withdrawnBy=3333333333333","level":"info","timestamp":"2021-03-04T04:30:59.606Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-04T04:32:02.120Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T04:40:39.002Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T04:40:39.010Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T04:40:39.066Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T04:40:39.142Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T04:40:39.144Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T04:40:39.144Z"}
+{"message":"[http:9595 proxyConfirm] Open for business...","level":"info","timestamp":"2021-03-19T04:40:39.145Z"}
+{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:63366 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-19T04:40:43.985Z"}
+{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:63985 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-19T06:45:06.595Z"}

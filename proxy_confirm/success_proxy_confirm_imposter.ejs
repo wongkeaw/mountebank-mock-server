@@ -1,0 +1,11 @@
+{
+     "port": "9595",
+     "protocol": "http",
+     "name": "proxyConfirm",
+     "stubs":[{
+            "predicates": [<% include success/success_proxy_confirm_predicates.ejs %>],
+            "responses": [<% include success/success_proxy_confirm_response.ejs %>]
+        },{
+            "responses": [<% include ../proxy.ejs %>]
+        }]
+}
