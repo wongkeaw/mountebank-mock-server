@@ -9,8 +9,11 @@
             "predicates": [<% include proxy_confirm/success/success_proxy_confirm_predicates.ejs %>],
             "responses": [<% include proxy_confirm/success/success_proxy_confirm_response.ejs %>]
         },{
-            "predicates": [<% include account_verification/success/account_verification_predicate.ejs %>],
-            "responses": [<% include account_verification/success/account_verification_response.ejs %>]
+            "predicates": [<% include aa_inquiry/success/account_verification_predicate.ejs %>],
+            "responses": [<% include aa_inquiry/success/account_verification_response.ejs %>]
+        },{
+            "predicates": [<% include proxy_inquiry/success/proxy_inqury_predicates.ejs %>],
+            "responses": [<% include proxy_inquiry/success/proxy_inqury_response.ejs %>]
         },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]

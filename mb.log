@@ -1,9 +1,17 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T06:58:16.264Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T06:58:16.273Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T06:58:16.358Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T06:58:16.443Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T06:58:16.446Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T06:58:16.447Z"}
-{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-19T06:58:16.448Z"}
-{"message":"[http:9595 pcc] ::ffff:127.0.0.1:51450 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-19T06:58:52.085Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T06:59:08.647Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T07:39:24.892Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T07:39:24.904Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T07:39:25.029Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T07:39:25.187Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T07:39:25.190Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T07:39:25.192Z"}
+{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-19T07:39:25.193Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:55370 => POST /ifm-services/v1.0/ppinquiry","level":"info","timestamp":"2021-03-19T07:39:31.651Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:55448 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:40:07.964Z"}
+{"message":"[http:9595 pcc] ::1:55463 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:40:12.848Z"}
+{"message":"[http:9595 pcc] ::1:55875 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:45:49.408Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:55878 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:45:51.530Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:55954 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:47:31.867Z"}
+{"message":"[http:9595 pcc] ::1:55958 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:47:34.562Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:56126 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:50:37.461Z"}
+{"message":"[http:9595 pcc] ::1:56148 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:50:43.003Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T07:51:35.559Z"}
