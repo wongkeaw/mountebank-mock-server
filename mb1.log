@@ -1,10 +1,9 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T07:57:00.775Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T07:57:00.785Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T07:57:00.865Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T07:57:00.962Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T07:57:00.965Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T07:57:00.966Z"}
-{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-19T07:57:00.967Z"}
-{"message":"[http:9595 pcc] ::ffff:127.0.0.1:57059 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:57:23.729Z"}
-{"message":"[http:9595 pcc] ::ffff:127.0.0.1:57152 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-19T07:58:38.784Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T07:58:44.600Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T08:23:12.800Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T08:23:12.809Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T08:23:12.877Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T08:23:12.965Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T08:23:12.966Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T08:23:12.967Z"}
+{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-19T08:23:12.967Z"}
+{"message":"[http:9595 pcc] ::1:59496 => POST /ifm-services/v1.0/pptsfonus","level":"info","timestamp":"2021-03-19T08:24:11.560Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T08:26:31.665Z"}
