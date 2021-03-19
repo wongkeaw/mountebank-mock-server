@@ -1,20 +1,8 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-18T09:00:01.311Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-18T09:00:01.318Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-18T09:00:01.357Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-18T09:00:01.422Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-18T09:00:01.424Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-18T09:00:01.424Z"}
-{"message":"[http:9595 proxyConfirm] Open for business...","level":"info","timestamp":"2021-03-18T09:00:01.425Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:49930 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:00:04.059Z"}
-{"message":"[http:9595 proxyConfirm] ::1:49933 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:00:09.096Z"}
-{"message":"[http:9595 proxyConfirm] ::1:49940 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:00:32.801Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:49942 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:00:48.296Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50092 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:16:07.145Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50135 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:06.490Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50137 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:08.503Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50138 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:09.258Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50139 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:09.739Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50140 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:10.071Z"}
-{"message":"[http:9595 proxyConfirm] ::ffff:127.0.0.1:50141 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:10.351Z"}
-{"message":"[http:9595 proxyConfirm] ::1:50143 => POST /ifm-services/v1.0/ppconfirm","level":"info","timestamp":"2021-03-18T09:17:19.551Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T02:07:51.455Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-19T06:56:47.039Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-19T06:56:47.059Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-19T06:56:47.155Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-19T06:56:47.268Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-19T06:56:47.270Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-19T06:56:47.271Z"}
+{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-19T06:56:47.272Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-19T06:58:12.774Z"}

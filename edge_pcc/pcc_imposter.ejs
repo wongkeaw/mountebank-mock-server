@@ -3,8 +3,14 @@
      "protocol": "http",
      "name": "pcc",
      "stubs":[{
-            "predicates": [ <% include credit_transfer_predicates.ejs %> ],
-            "responses": [ <% include credit_transfer_response.ejs %> ]
+            "predicates": [ <% include aa_confirm/success/credit_transfer_predicates.ejs %> ],
+            "responses": [ <% include aa_confirm/success/credit_transfer_response.ejs %> ]
+        },{
+            "predicates": [<% include proxy_confirm/success/success_proxy_confirm_predicates.ejs %>],
+            "responses": [<% include proxy_confirm/success/success_proxy_confirm_response.ejs %>]
+        },{
+            "predicates": [<% include account_verification/success/account_verification_predicate.ejs %>],
+            "responses": [<% include account_verification/success/account_verification_response.ejs %>]
         },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]
