@@ -1,0 +1,11 @@
+{
+     "port": "9595",
+     "protocol": "http",
+     "name": "pcc",
+     "stubs":[{
+            "predicates": [ <% include credit_transfer_predicates.ejs %> ],
+            "responses": [ <% include credit_transfer_response.ejs %> ]
+        },{
+            "responses": [ <% include ../proxy.ejs %> ]
+        }]
+}
