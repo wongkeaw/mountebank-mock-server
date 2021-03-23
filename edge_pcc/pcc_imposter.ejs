@@ -21,6 +21,9 @@
             "predicates": [<% include bill_payment_confirm/success/confirm_predicates.ejs %>],
             "responses": [<% include bill_payment_confirm/success/confirm_response.ejs %>]
         },{
+            "predicates": [<% include bill_inquiry/success/bill_inqury_predicates.ejs %>],
+            "responses": [<% include bill_inquiry/success/bill_inqury_response.ejs %>]
+        },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]
 }
