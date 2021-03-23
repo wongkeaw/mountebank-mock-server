@@ -1,0 +1,50 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/ifm-services/v1.0/ppbillinquiry",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "transaction": {
+                        "sequenceNo": "000055",
+                        "transmitDateTime": "",
+                        "localDateTime": "",
+                        "referenceNo": "",
+                        "amount": ""
+                    },
+                    "terminalInfo": {
+                        "terminalId": "",
+                        "terminalType": ""
+                    },
+                    "promptpayInfo": {
+                        "fromAcctInfo": {
+                            "fromAcctNo": "",
+                            "fromAcctName": ""
+                        },
+                        "toAcctInfo": {
+                            "proxyId": "",
+                            "proxyType": ""
+                        }
+                    },
+                    "senderInfo": {
+                        "customerRefNo": ""
+                    },
+                    "additionalInfo" : {
+                        "senderType" : "E"
+                    },
+                    "billInfo" : {
+                        "reference1" : "",
+                        "reference2" : ""
+                    }
+                }
+            }
+        }
+    ]
+}
