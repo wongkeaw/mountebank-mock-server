@@ -1,0 +1,37 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/ifm-services/v1.0/directdebit",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "transaction": {
+                        "sequenceNo": "000055",
+                        "transmitDateTime": "",
+                        "localDateTime": "",
+                        "referenceNo": "",
+                        "amount": "",
+                        "fee": "",
+                        "toAcctNo": ""
+                    },
+                    "terminalInfo": {
+                        "terminalId": "",
+                        "branchId": "",
+                        "terminalType": ""
+                    },
+                    "cardInfo": {
+                        "pan": "",
+                        "pinData": ""
+                    }
+                }
+            }
+        }
+    ]
+}
