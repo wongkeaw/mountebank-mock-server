@@ -18,6 +18,9 @@
             "predicates": [<% include proxy_onus/success/proxy_onus_predicates.ejs %>],
             "responses": [<% include proxy_onus/success/proxy_onus_response.ejs %>]
         },{
+            "predicates": [<% include bill_payment_confirm/success/confirm_predicates.ejs %>],
+            "responses": [<% include bill_payment_confirm/success/confirm_response.ejs %>]
+        },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]
 }

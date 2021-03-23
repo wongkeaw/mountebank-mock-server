@@ -1,0 +1,51 @@
+{
+    "and":[
+       {
+          "matches":{
+             "path":"/ifm-services/v1.0/ppbillinquiry",
+             "method":"POST"
+          }
+       },{
+          "matches":{
+             "body":{
+                "transaction": {
+                    "sequenceNo": "000055",
+                    "transmitDateTime": "",
+                    "localDateTime": "",
+                    "referenceNo": "",
+                    "amount": "",
+                    "fee": ""
+                },
+                "terminalInfo": {
+                    "terminalId": "",
+                    "terminalType": ""
+                },
+                "promptpayInfo": {
+                    "fromAcctInfo": {
+                        "fromAcctNo": "",
+                        "fromAcctName": ""
+                    },
+                    "toAcctInfo": {
+                        "toProxyId": "",
+                        "toProxyType": "",
+                        "toAcctNo": "",
+                        "toAcctName": "",
+                        "toAcctDisplayName": "",
+                        "toBankCode": "",
+                        "toTaxId": ""
+                    }
+                },
+                "senderInfo": {
+                    "customerRefNo": ""
+                },
+                "billInfo": {
+                    "billReference1": "",
+                    "billReference2":"",
+                    "billReference3": "",
+                    "billDueDate": ""
+                }
+             }
+          }
+       }
+    ]
+ }
