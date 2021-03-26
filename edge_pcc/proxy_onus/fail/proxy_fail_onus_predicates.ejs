@@ -1,0 +1,72 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/ifm-services/v1.0/pptsfonus",
+                "method": "POST"
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "transaction": {
+                        "sequenceNo": "000000",
+                        "transmitDateTime": "",
+                        "localDateTime": "",
+                        "referenceNo": "",
+                        "amount": "",
+                        "fee": ""
+                    },
+                    "terminalInfo": {
+                        "terminalId": "",
+                        "branchId": "",
+                        "terminalType": ""
+                    },
+                    "promptpayInfo": {
+                        "fromAcctInfo": {
+                            "fromAcctNo": "",
+                            "fromAcctName": "",
+                            "fromAcctType": ""
+                        },
+                        "toAcctInfo": {
+                            "proxyId": "",
+                            "proxyType": "",
+                            "toAcctNo": "",
+                            "toAcctName": "",
+                            "toAcctDisplayName": "",
+                            "taxId": "",
+                            "toBankCode": ""
+                        },
+                        "addNote": "",
+                        "transactionReference": "",
+                        "typeOfTsf": ""
+                    },
+                    "senderInfo": {
+                        "senderId": "",
+                        "senderProxyType": "",
+                        "referenceNo": "",
+                        "taxId": "",
+                        "branch": "",
+                        "customerRefNo": ""
+                    },
+                    "additionalInfo": {
+                        "vatRate": "",
+                        "vatAmt": "",
+                        "incomeType": "",
+                        "whtRate": "",
+                        "whtAmt": "",
+                        "whtCondition": "",
+                        "senderType": "",
+                        "receiverType": ""
+                    },
+                    "billInfo": {
+                        "reference1": "",
+                        "reference2": "",
+                        "reference3": "",
+                        "dueDate": ""
+                    }
+                }
+            }
+        }
+    ]
+}

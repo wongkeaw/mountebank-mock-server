@@ -12,6 +12,9 @@
             "predicates": [<% include proxy_confirm/success/success_proxy_confirm_predicates.ejs %>],
             "responses": [<% include proxy_confirm/success/success_proxy_confirm_response.ejs %>]
         },{
+            "predicates": [<% include proxy_confirm/fail/fail_proxy_confirm_predicates.ejs %>],
+            "responses": [<% include proxy_confirm/fail/fail_proxy_confirm_response.ejs %>]
+        },{
             "predicates": [<% include aa_inquiry/success/account_verification_predicate.ejs %>],
             "responses": [<% include aa_inquiry/success/account_verification_response.ejs %>]
         },{
@@ -21,8 +24,14 @@
             "predicates": [<% include proxy_inquiry/success/proxy_inqury_predicates.ejs %>],
             "responses": [<% include proxy_inquiry/success/proxy_inqury_response.ejs %>]
         },{
+            "predicates": [<% include proxy_inquiry/fail/proxy_fail_inqury_predicates.ejs %>],
+            "responses": [<% include proxy_inquiry/fail/proxy_fail_inqury_response.ejs %>]
+        },{
             "predicates": [<% include proxy_onus/success/proxy_onus_predicates.ejs %>],
             "responses": [<% include proxy_onus/success/proxy_onus_response.ejs %>]
+        },{
+            "predicates": [<% include proxy_onus/fail/proxy_fail_onus_predicates.ejs %>],
+            "responses": [<% include proxy_onus/fail/proxy_fail_onus_response.ejs %>]
         },{
             "predicates": [<% include bill_payment_confirm/success/confirm_predicates.ejs %>],
             "responses": [<% include bill_payment_confirm/success/confirm_response.ejs %>]
@@ -33,8 +42,14 @@
             "predicates": [<% include bill_inquiry/success/bill_inqury_predicates.ejs %>],
             "responses": [<% include bill_inquiry/success/bill_inqury_response.ejs %>]
         },{
+            "predicates": [<% include bill_inquiry/fail/bill_fail_inqury_predicates.ejs %>],
+            "responses": [<% include bill_inquiry/fail/bill_fail_inqury_response.ejs %>]
+        },{
             "predicates": [<% include topup/success/success_topup_predicates.ejs %>],
             "responses": [<% include topup/success/success_topup_response.ejs %>]
+        },{
+            "predicates": [<% include topup/fail/fail_topup_predicates.ejs %>],
+            "responses": [<% include topup/fail/fail_topup_response.ejs %>]
         },{
             "responses": [ <% include ../proxy.ejs %> ]
         }]

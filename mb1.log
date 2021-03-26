@@ -1,8 +1,10 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-26T04:48:34.772Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-26T04:48:34.784Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-26T04:48:35.124Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.318Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.326Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.326Z"}
-{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.328Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-26T04:48:41.505Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-26T09:11:58.189Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-26T09:11:58.195Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-26T09:11:58.243Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-26T09:11:58.343Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-26T09:11:58.344Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-26T09:11:58.345Z"}
+{"message":"[http:9007 pcc] Open for business...","level":"info","timestamp":"2021-03-26T09:11:58.345Z"}
+{"message":"[http:9007 pcc] ::1:54402 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-26T09:12:03.031Z"}
+{"message":"[http:9007 pcc] ::1:54407 => POST /ifm-services/v1.0/ppinquiry/proxy","level":"info","timestamp":"2021-03-26T09:12:08.268Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-26T09:13:40.309Z"}
