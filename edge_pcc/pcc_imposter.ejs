@@ -6,11 +6,17 @@
             "predicates": [ <% include aa_confirm/success/credit_transfer_predicates.ejs %> ],
             "responses": [ <% include aa_confirm/success/credit_transfer_response.ejs %> ]
         },{
+            "predicates": [ <% include aa_confirm/fail/credit_transfer_predicates.ejs %> ],
+            "responses": [ <% include aa_confirm/fail/credit_transfer_response.ejs %> ]
+        },{
             "predicates": [<% include proxy_confirm/success/success_proxy_confirm_predicates.ejs %>],
             "responses": [<% include proxy_confirm/success/success_proxy_confirm_response.ejs %>]
         },{
             "predicates": [<% include aa_inquiry/success/account_verification_predicate.ejs %>],
             "responses": [<% include aa_inquiry/success/account_verification_response.ejs %>]
+        },{
+            "predicates": [<% include aa_inquiry/fail/account_verification_predicate.ejs %>],
+            "responses": [<% include aa_inquiry/fail/account_verification_response.ejs %>]
         },{
             "predicates": [<% include proxy_inquiry/success/proxy_inqury_predicates.ejs %>],
             "responses": [<% include proxy_inquiry/success/proxy_inqury_response.ejs %>]
@@ -20,6 +26,9 @@
         },{
             "predicates": [<% include bill_payment_confirm/success/confirm_predicates.ejs %>],
             "responses": [<% include bill_payment_confirm/success/confirm_response.ejs %>]
+        },{
+            "predicates": [<% include bill_payment_confirm/fail/confirm_predicates.ejs %>],
+            "responses": [<% include bill_payment_confirm/fail/confirm_response.ejs %>]
         },{
             "predicates": [<% include bill_inquiry/success/bill_inqury_predicates.ejs %>],
             "responses": [<% include bill_inquiry/success/bill_inqury_response.ejs %>]

@@ -1,0 +1,51 @@
+{
+    "and":[
+       {
+          "matches":{
+             "path":"/ifm-services/v1.0/ppbillpay",
+             "method":"POST"
+          }
+       },{
+          "matches":{
+             "body":{
+                "transaction": {
+                    "sequenceNo": "000000",
+                    "transmitDateTime": "",
+                    "localDateTime": "",
+                    "referenceNo": "",
+                    "amount": "",
+                    "fee": ""
+                },
+                "terminalInfo": {
+                    "terminalId": "",
+                    "terminalType": ""
+                },
+                "promptpayInfo": {
+                    "fromAcctInfo": {
+                        "fromAcctNo": "",
+                        "fromAcctName": ""
+                    },
+                    "toAcctInfo": {
+                        "toProxyId": "",
+                        "toProxyType": "",
+                        "toAcctNo": "",
+                        "toAcctName": "",
+                        "toAcctDisplayName": "",
+                        "toBankCode": "",
+                        "toTaxId": ""
+                    }
+                },
+                "senderInfo": {
+                    "customerRefNo": ""
+                },
+                "billInfo": {
+                    "reference1": "",
+                    "reference2":"",
+                    "reference3": "",
+                    "dueDate": ""
+                }
+             }
+          }
+       }
+    ]
+ }

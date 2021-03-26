@@ -1,8 +1,10 @@
-{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-26T04:48:34.772Z"}
-{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-26T04:48:34.784Z"}
-{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-26T04:48:35.124Z"}
-{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.318Z"}
-{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.326Z"}
-{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.326Z"}
-{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-26T04:48:35.328Z"}
-{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-26T04:48:41.505Z"}
+{"message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","level":"warn","timestamp":"2021-03-26T08:53:50.073Z"}
+{"message":"[mb:2525] mountebank v2.4.0 now taking orders - point your browser to http://localhost:2525/ for help","level":"info","timestamp":"2021-03-26T08:53:50.082Z"}
+{"message":"[mb:2525] PUT /imposters","level":"info","timestamp":"2021-03-26T08:53:50.156Z"}
+{"message":"[http:9006 d1] Open for business...","level":"info","timestamp":"2021-03-26T08:53:50.260Z"}
+{"message":"[http:9008 edgeDopa] Open for business...","level":"info","timestamp":"2021-03-26T08:53:50.262Z"}
+{"message":"[http:9009 onetrust] Open for business...","level":"info","timestamp":"2021-03-26T08:53:50.263Z"}
+{"message":"[http:9595 pcc] Open for business...","level":"info","timestamp":"2021-03-26T08:53:50.264Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:58871 => POST /ifm-services/v1.0/ppinquiry","level":"info","timestamp":"2021-03-26T08:54:16.032Z"}
+{"message":"[http:9595 pcc] ::ffff:127.0.0.1:58929 => POST /ifm-services/v1.0/ppinquiry","level":"info","timestamp":"2021-03-26T08:56:02.095Z"}
+{"message":"[mb:2525] Adios - see you soon?","level":"info","timestamp":"2021-03-26T08:57:04.002Z"}

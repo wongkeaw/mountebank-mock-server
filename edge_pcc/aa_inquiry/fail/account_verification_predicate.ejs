@@ -1,0 +1,43 @@
+{
+    "and": [
+        {
+            "equals": {
+                "path": "/ifm-services/v1.0/ppinquiry",
+                "method": "POST",
+                "headers": {
+                    "Content-Type": "application/json"
+                }
+            }
+        },
+        {
+            "matches": {
+                "body": {
+                    "transaction": {
+                        "sequenceNo": "000000",
+                        "transmitDateTime": "",
+                        "localDateTime": "",
+                        "referenceNo": "",
+                        "amount": ""
+                    },
+                    "terminalInfo": {
+                        "terminalId": "",
+                        "terminalType": ""
+                    },
+                    "promptpayInfo": {
+                        "fromAcctInfo": {
+                            "fromAcctNo": "",
+                            "fromAcctName": ""
+                        },
+                        "toAcctInfo": {
+                            "proxyId": "",
+                            "proxyType": ""
+                        }
+                    },
+                    "senderInfo": {
+                        "customerRefNo": ""
+                    }
+                }
+            }
+        }
+    ]
+}
