@@ -1,0 +1,11 @@
+{
+     "port": "9010",
+     "protocol": "http",
+     "name": "sns",
+     "stubs":[{
+            "predicates": [ <% include sns_success/success_sns_predicates.ejs %> ],
+            "responses": [ <% include sns_success/success_sns_response.ejs %> ]
+        },{
+            "responses": [ <% include ../proxy.ejs %> ]
+        }]
+}
