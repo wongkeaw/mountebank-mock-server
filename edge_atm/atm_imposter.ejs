@@ -1,0 +1,13 @@
+{
+     "port": "9005",
+     "protocol": "http",
+     "name": "pcc",
+     "stubs":[{
+            "predicates": [ <% include edge_atm/success/atm_success_predicates.ejs %> ],
+            "responses": [ <% include edge_atm/success/atm_success_response.ejs %> ]
+        },
+        {
+            "predicates": [ <% include edge_atm/fail/atm_fail_predicates.ejs %> ],
+            "responses": [ <% include edge_atm/fail/atm_fail_response.ejs %> ]
+        }]
+}

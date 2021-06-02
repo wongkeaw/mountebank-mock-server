@@ -1,0 +1,21 @@
+{
+    "and":[
+       {
+          "matches":{
+             "path":"/cmsmb-services/v1.0/pinverify",
+             "method":"POST"
+          }
+       },{
+          "matches":{
+             "body":{
+                "txnReferenceNo": "20201117235959000001",
+                "channel": "80",
+                "cardInfo": {
+                    "cardNo": "007101777000001",
+                    "pinData": "0123456789ABCDEF"
+                }
+            }
+          }
+       }
+    ]
+ }
